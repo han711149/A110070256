@@ -14,12 +14,61 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<style>
+    body {
+        background-color: #121212;
+        color: #f0f0f0;
+    }
+    .bg-primary {
+        background-color: #1f1f1f !important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ccc;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+    .resume-section {
+        background-color: #1a1a1a;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    h1, h2, h3, h4, h5 {
+        color: #ffffff;
+    }
+    a {
+        color: #9ecfff;
+    }
+    a:hover {
+        color: #ffffff;
+    }
+    .btn-primary {
+        background-color: #333;
+        border-color: #444;
+    }
+    .btn-primary:hover {
+        background-color: #555;
+        border-color: #666;
+    }
+    hr {
+        border-color: #333;
+    }
+
+.text-primary {
+    color: #bfc4c9 !important;
+}
+</style>
+
+</head>
+    <body id="page-top" onload="AOS.init();">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-block d-lg-none">ZHANG,SHU-HAN</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -40,14 +89,14 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Clarence
-                        <span class="text-primary">Taylor</span>
+                        SHU-HAN
+                        <span class="text-primary">ZHANG</span>
                     </h1>
                     <div class="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                        No. 1, Ln. 17, Sec. 1, Muzha Rd., Wenshan Dist., Taipei City 116, Taiwan · (02) 2236-8225 ·
+                        <a href="mailto:han711149@gmail.com">han711149@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p class="lead mb-5">我是世新大學資訊傳播學系的學生，擅長整合媒體設計與資訊技術，致力於打造具有使用者體驗與互動感的數位內容。我特別熱衷於前端開發與 UI/UX 設計，目前正深入學習 HTML、CSS、JavaScript 以及 Git，並嘗試運用 Bootstrap 框架與動畫特效提升介面表現。我期望能在未來結合視覺傳播與程式開發，成為跨領域的數位設計人才。</p>
                     <div class="social-icons">
                         <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
@@ -58,7 +107,7 @@
             </section>
             <hr class="m-0" />
             <!-- Experience-->
-            <section class="resume-section" id="experience">
+            <section class="resume-section" id="experience" data-aos="fade-up">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -97,81 +146,58 @@
             </section>
             <hr class="m-0" />
             <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
+            <section class="resume-section" id="education" data-aos="fade-up">
+<div class="resume-section-content">
+<h2 class="mb-5">Education</h2>
+
+<h3 class="mb-0">世新大學</h3>
+<div class="subheading mb-3">資訊傳播學系</div>
+<p>GPA: 無</p>
+
+
+<p>
+    <a href="#skills" class="btn btn-primary btn-lg mt-3 js-scroll-trigger" data-aos="zoom-in">
+        查看我的技能
+    </a>
+</p>
+</div>
+</section>
+<hr class="m-0" />
             <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
+            <section class="resume-section" id="skills" data-aos="fade-up"><div class="resume-section-content">
+
+<h2 class="mb-5">Skills</h2>
+<div class="subheading mb-3">程式與設計技能</div>
+<ul class="list-inline dev-icons">
+    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+    <li class="list-inline-item"><i class="fab fa-figma"></i></li>
+    <li class="list-inline-item"><i class="fab fa-git-alt"></i></li>
+</ul>
+<div class="subheading mb-3">Workflow</div>
+<ul class="fa-ul mb-0">
+    <li><span class="fa-li"><i class="fas fa-check"></i></span> 前端開發：HTML5 / CSS3 / JS</li>
+    <li><span class="fa-li"><i class="fas fa-check"></i></span> UI/UX 設計：Figma、Adobe XD</li>
+    <li><span class="fa-li"><i class="fas fa-check"></i></span> 響應式設計：Bootstrap、RWD 開發</li>
+    <li><span class="fa-li"><i class="fas fa-check"></i></span> 圖像處理：Photoshop、Illustrator</li>
+    <li><span class="fa-li"><i class="fas fa-check"></i></span> 專案協作：Git / GitHub</li>
+</ul>
+
+</div></section>
+<hr class="m-0" />
             <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
+            <section class="resume-section" id="interests" data-aos="fade-up"><div class="resume-section-content">
+<h2 class="mb-5">Interests</h2>
+
+<p>我熱愛畫畫與戶外活動，特別是登山與自然攝影，這些興趣培養了我對構圖與色彩的敏銳度，並啟發我在數位設計中的創意靈感。</p>
+<p>我同時對網頁設計充滿熱情，喜歡探索不同的使用者介面風格與互動形式。</p>
+<p class="mb-0">目前我正嘗試將設計美感與前端開發技能整合，致力於打造視覺吸引力與功能兼具的個人網站作品，並透過專題實作深化我的 UI/UX 設計能力。</p>
+
+</div></section>
+<hr class="m-0" />
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <section class="resume-section" id="awards" data-aos="fade-up">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Awards & Certifications</h2>
                     <ul class="fa-ul mb-0">
